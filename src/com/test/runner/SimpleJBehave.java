@@ -71,7 +71,19 @@ public class SimpleJBehave extends JUnitStories {
 		embedderControls.doVerboseFiltering(false);
 		embedderControls.useStoryTimeoutInSecs(300);
 		embedderControls.useThreads(1);
+		
 	}
+	
+//	public SimpleJBehave() {
+//		super();
+//		this.configuredEmbedder().candidateSteps().add(new ExampleSteps());
+//	}
+// 
+//	@Override
+//	protected List<String> storyPaths() {
+//		return Arrays.asList("de/codecentric/simplejbehave/Math.story");
+//	}
+	
  
 	@Override
 	public Configuration configuration() {
